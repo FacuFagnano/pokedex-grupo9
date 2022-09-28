@@ -1,0 +1,75 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 2em;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+ul img{
+    width: 85px;
+    margin: 1em;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.ingreso{
+    display: flex;
+    float: right;
+    margin-top: -85px;
+}
+
+.ingreso input{
+    width: 35%;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    border-radius: 5px;
+}
+
+.ingreso button{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.busqueda{
+    margin: 3em;
+    text-align: center;
+}
+
+.busqueda input{
+    width: 80%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
